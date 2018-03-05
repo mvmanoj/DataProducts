@@ -15,16 +15,16 @@ OBJECTIVE
 
 *Documentation and be accessed at:*
 
-<b><a href="https://github.com/mvmanoj72/DataProducts/blob/master/README.md", target="_blank">Click here to see Documentation & readme file<br> </a></b>
+<b><a href="https://github.com/mvmanoj/DataProducts/blob/master/README.md", target="_blank">Click here to see Documentation & readme file<br> </a></b>
 
 *Github repo:*
 
-<b><a href="https://github.com/mvmanoj72/DataProducts", target="_blank">Access github repository<br> </a></b>
+<b><a href="https://github.com/mvmanoj/DataProducts", target="_blank">Access github repository<br> </a></b>
 
 Shiny App - mtcars clustering
 ========================================================
 
-![alt text](mtCarsShinyApp.png)
+![RPlot](https://github.com/mvmanoj/DataProducts/blob/master/mtCarsShinyApp.png)
 
 Data Summary for mtcars Data
 =============================
@@ -40,16 +40,18 @@ User Inputs Required
 ========================================================
 The user is required to specify:
 
-- X Variable
-- Y Variable
-- Number of Clusters
+- X Variable to input paramter
+- Y Variable to input parameter
+- Number of Clusters to be observed
 
 
 SUMMARY
 ==============
 
-- This ShinyApp Used mtCars Data Set
+- mtcars dataset was used to develope this ShinyApp
 - Applies the kmeans algorithm to mtCars dataset
+- Analysis of the Data and Prediction based on parameters selected
+- Cluster graphics to visualize the data points
 - Developed in RStudio and published to shinyapp.io
 
 
