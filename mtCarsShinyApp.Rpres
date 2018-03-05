@@ -1,0 +1,55 @@
+mtCarsShinyApp
+========================================================
+author: Manoj Krishna
+date: 04 March 2018
+autosize: true
+
+OBJECTIVE
+========================================================
+
+<u><center>**To Develop an interactive Shinyapp for mtCars**</center></u>
+
+*The app can be accessed at:*
+
+<b><a href="https://mkrishna.shinyapps.io/mtCarsShinyApp/", target="_blank">Click here to launch Shinyapp<br> </a></b>
+
+*Documentation and be accessed at:*
+
+<b><a href="https://github.com/mvmanoj72/DataProducts/blob/master/README.md", target="_blank">Click here to see Documentation & readme file<br> </a></b>
+
+*Github repo:*
+
+<b><a href="https://github.com/mvmanoj72/DataProducts", target="_blank">Access github repository<br> </a></b>
+
+Shiny App - mtcars clustering
+========================================================
+
+![alt text](mtCarsShinyApp.png)
+
+Data Summary for mtcars Data
+=============================
+<small><small><small>
+```{r}
+head(mtcars,1)
+str(mtcars)
+```
+</small></small></small>
+
+
+User Inputs Required
+========================================================
+The user is required to specify:
+
+- X Variable
+- Y Variable
+- Number of Clusters
+
+
+SUMMARY
+==============
+
+- This ShinyApp Used mtCars Data Set
+- Applies the kmeans algorithm to mtCars dataset
+- Developed in RStudio and published to shinyapp.io
+
+
